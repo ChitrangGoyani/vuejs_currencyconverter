@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">`
+        <style></style>
+        <title>Free Currency Converter</title>
+    </head>
+    <body>
+        <div id="app">
+            <div>
+                <label>From</label>
+                <select v-model="from" name="" id="" class="form-control">
+                        <option :value="currency" v-for="currency in currencies">{{ currency }}</option>
+                </select>
+            </div>
+            <div>
+                <label>To</label>
+                <select v-model="to" name="" id="" class="form-control">
+                        <option :value="currency" v-for="currency in currencies">{{ currency }}</option>
+                </select>
+            </div>
+                <input v-model="amount" type="text" placeholder="Amount" class="form-control my-5">
+                <div class="text-center">
+                    <button class="btn btn-lg btn-primary">Convert</button>
+                </div>
+            <div>
+                <h3></h3>
+            </div>
+        </div>
+        <script src="vue.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+</html>

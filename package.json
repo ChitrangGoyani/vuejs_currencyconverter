@@ -1,0 +1,19 @@
+{
+  "name": "vuejs_currencyconverter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChitrangGoyani/vuejs_currencyconverter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChitrangGoyani/vuejs_currencyconverter/issues"
+  },
+  "homepage": "https://github.com/ChitrangGoyani/vuejs_currencyconverter#readme"
+}
